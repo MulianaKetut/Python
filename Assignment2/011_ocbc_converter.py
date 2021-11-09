@@ -1,4 +1,14 @@
 def konversiSuhu(suhu):
+    '''
+    Doc:
+    1. Mengubah input suhu ke tipe int
+    2. Cek tipe suhu berdasarkan huruf yang di inputkan (sesuai ketentuan)
+    3. Serta akan mengkonversi suhu tersebut (sesuai yang di input) ke tipe suhu yang lain.
+    
+    Fitur:
+    1. Validasi input suhu & perulangan
+    2. Question perulangan
+    '''
     drjt = int(suhu[:-1])
     inputan = suhu[-1]
 
@@ -58,9 +68,10 @@ i = True
 print("\n===> Program Konversi Suhu - Python <===")
 while i:
     try:
-        print('C = Celcius', '\nF = Fahrenheit', '\nK = Kelvin', '\nR = Reamur')
+        print('C = Celcius', '\nF = Fahrenheit',
+              '\nK = Kelvin', '\nR = Reamur')
         temp = input("\nMasukan suhu? (Misal: 30C, 20F, 21K, 44R): ")
-        konversiSuhu(temp)  
+        konversiSuhu(temp)
     except:
         print("Inputan tidak sesuai!! Perhatikan Penulisan Input")
 
