@@ -1,0 +1,10 @@
+Pug\r\n
+Jack Russell Terrier\r\n
+English Springer Spaniel\r\n
+German Shepherd\r\n
+Staffordshire Bull Terrier\r\n
+Cavalier King Charles Spaniel\r\n
+Golden Retriever\r\n
+West Highland White Terrier\r\n
+Boxer\r\n
+Border Terrier\r\n
