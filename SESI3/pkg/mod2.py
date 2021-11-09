@@ -1,0 +1,1 @@
+artist_kits=['guitar', 'bass', 'drum']
